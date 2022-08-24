@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="s003">
+
+<!-- Light Alert -->
+<div id = "myAlert" class="alert alert-light alert-dismissible fade show">
+  A <strong>{{ category }}</strong> Fact About <strong>{{ number }}</strong>:
+  {{ text["text"] }}
+  <button onclick="window.location.href='/'" type="button" class="btn-close" id = "myBtn" data-bs-dismiss="alert"></button>
+</div>
+
+</div>
+{% endblock %}
